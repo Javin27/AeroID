@@ -64,3 +64,4 @@ Python · Flask · OpenCV · InsightFace (buffalo_l) · React · Vite
 
 Made by **Javin Rathod** ( [Javin2710](https://github.com/Javin27) )
 
+### Kisi bhi error ka zimmedaar mai nei hu 😅😅
