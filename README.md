@@ -27,6 +27,8 @@ npm run dev
 Open the link Vite prints (usually **http://localhost:5173**).
 
 ---
+## Remember Nodes folder will be Inside the website folder.
+   U can run npm install 
 
 ## 🧑‍🎓 Adding Students
 
