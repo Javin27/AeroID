@@ -5,6 +5,8 @@ import { Logo } from './components/Logo'
 import DroneVision from './components/DroneVision'
 import FaceScan from './components/FaceScan'
 
+import DevBadge from "./components/DevBadge"
+
 export default function App() {
   const [tab, setTab] = useState('vision')
   const [online, setOnline] = useState(false)
@@ -26,6 +28,7 @@ export default function App() {
   const scan = c => { setSelected(c); setTab('scan') }
 
   return (
+    <>
     <div className="shell">
       <header className="bar">
         <Logo />
@@ -41,5 +44,7 @@ export default function App() {
           : <FaceScan captures={captures} selected={selected} setSelected={setSelected} addCapture={addCapture} />}
       </main>
     </div>
+    <DevBadge /> 
+    </>
   )
 }
